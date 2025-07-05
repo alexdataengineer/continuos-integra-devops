@@ -5,7 +5,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: validation
 
 variables:
   webAppName: 'devops-project'
