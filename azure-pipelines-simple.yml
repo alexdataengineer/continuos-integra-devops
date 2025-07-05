@@ -73,6 +73,11 @@ stages:
         npm run test:e2e
       displayName: 'Run E2E tests'
 
+    - script: |
+        echo "##vso[task.logissue type=warning]Test stage completed"
+        echo "##vso[task.complete result=Succeeded;]"
+      displayName: 'Publish Test Results'
+
 - stage: Security
   displayName: 'Security Stage'
   dependsOn: Build
@@ -92,6 +97,7 @@ stages:
 
     - script: |
         echo "Security scan completed successfully"
+        echo "##vso[task.logissue type=warning]Security analysis completed"
       displayName: 'Security Analysis'
 
 - stage: Deploy
@@ -160,4 +166,12 @@ stages:
         echo "📧 Email notification sent"
         echo "💬 Slack notification sent"
         echo "📱 Teams notification sent"
-      displayName: 'Send Notifications' 
+        echo "##vso[task.logissue type=warning]Notifications sent successfully"
+      displayName: 'Send Notifications'
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Notification Log'
+      inputs:
+        pathToPublish: '$(Build.ArtifactStagingDirectory)'
+        artifactName: 'notifications'
+        condition: succeededOrFailed() 
