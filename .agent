@@ -1,0 +1,9 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 12,
+  "agentName": "Alexsanders-Air",
+  "poolId": 10,
+  "poolName": "validation",
+  "serverUrl": "https://dev.azure.com/danielealves2025/",
+  "workFolder": "_work"
+}

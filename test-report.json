@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "passRate": "100.00%",
+    "duration": "7ms"
+  },
+  "details": [
+    {
+      "name": "HTML Structure Validation",
+      "status": "PASSED",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "name": "Package.json Validation",
+      "status": "PASSED",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "name": "Pipeline Configuration",
+      "status": "PASSED",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "name": "Dependencies Installation",
+      "status": "PASSED",
+      "duration": 0,
+      "error": null
+    },
+    {
+      "name": "File Permissions",
+      "status": "PASSED",
+      "duration": 0,
+      "error": null
+    }
+  ],
+  "timestamp": "2025-07-05T17:38:28.700Z"
+}

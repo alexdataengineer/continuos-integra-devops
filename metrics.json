@@ -1,0 +1,38 @@
+{
+  "project": {
+    "totalFiles": 33,
+    "htmlFiles": 6,
+    "jsFiles": 0,
+    "configFiles": 3,
+    "hasPackageJson": true,
+    "hasPipeline": true,
+    "hasReadme": true,
+    "hasGitignore": true
+  },
+  "code": {
+    "totalLines": 2255,
+    "commentLines": 0,
+    "emptyLines": 286,
+    "codeLines": 1969,
+    "commentRatio": "0.00%",
+    "emptyLineRatio": "12.68%"
+  },
+  "performance": {
+    "loadTime": "147.37ms",
+    "memoryUsage": "54.96MB",
+    "cpuUsage": "34.13%",
+    "responseTime": "117.89ms",
+    "throughput": "783 req/s"
+  },
+  "quality": {
+    "passRate": "100.00%",
+    "totalTests": 5,
+    "passedTests": 5,
+    "failedTests": 0,
+    "codeCoverage": "97.0%",
+    "securityScore": "89.0%",
+    "maintainability": "98.2%",
+    "reliability": "98.4%"
+  },
+  "timestamp": "2025-07-05T17:38:53.142Z"
+}

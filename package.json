@@ -6,12 +6,17 @@
   "scripts": {
     "start": "serve . -p 3000",
     "build": "echo 'Build completed successfully'",
-    "test": "echo 'Running tests...' && echo 'All tests passed!' && exit 0",
-    "test:e2e": "echo 'Running E2E tests...' && echo 'All E2E tests passed!' && exit 0",
+    "test": "node scripts/run-tests.js",
+    "test:e2e": "node scripts/run-e2e-tests.js",
+    "test:coverage": "node scripts/generate-coverage.js",
+    "test:metrics": "node scripts/generate-metrics.js",
     "lint": "echo 'Linting completed successfully'",
     "audit": "npm audit --audit-level=moderate || exit 0",
     "deploy": "echo 'Deploy completed successfully'",
-    "health-check": "echo 'Health check passed' && exit 0"
+    "health-check": "node scripts/health-check.js",
+    "performance": "node scripts/performance-test.js",
+    "security-scan": "node scripts/security-scan.js",
+    "generate-report": "node scripts/generate-report.js"
   },
   "keywords": [
     "devops",
@@ -22,9 +27,12 @@
   ],
   "author": "DevOps Team",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  },
   "devDependencies": {
-    "serve": "^14.2.0"
+    "serve": "^14.2.1"
   },
   "engines": {
     "node": ">=18.0.0",
