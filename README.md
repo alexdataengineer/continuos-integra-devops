@@ -14,7 +14,8 @@ This project serves as a practical testing environment for DevOps pipelines, fea
 **Alexsander Silveira** - Data Engineer
 
 This project was developed to demonstrate and test various DevOps practices, CI/CD pipelines, and monitoring solutions.
-<img width="1371" alt="image" src="https://github.com/user-attachments/assets/36948034-3326-4f00-9127-7bb0adb905a8" />
+![image](https://github.com/user-attachments/assets/be7bcea4-2fd8-467d-9e59-703b5c9bb57f)
+
 
 ## 📋 Project Structure
 
