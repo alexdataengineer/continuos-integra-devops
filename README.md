@@ -8,7 +8,7 @@ This project serves as a practical testing environment for DevOps pipelines, fea
 
 ## 👨‍💻 Developer
 
-**Alexsander Silveira** - DevOps Engineer & Full Stack Developer
+**Alexsander Silveira** - Data Engineer
 
 This project was developed to demonstrate and test various DevOps practices, CI/CD pipelines, and monitoring solutions.
 
