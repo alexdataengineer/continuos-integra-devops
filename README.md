@@ -24,6 +24,7 @@ This project was developed to demonstrate and test various DevOps practices, CI/
 ├── package.json       # Node.js dependencies and scripts
 └── README.md         # Project documentation
 ```
+<img width="598" alt="image" src="https://github.com/user-attachments/assets/b23f1e34-de28-411a-ae83-75bef94afb27" />
 
 ## 🎯 Benefits of This Project
 
