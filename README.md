@@ -8,9 +8,10 @@ This project serves as a practical testing environment for DevOps pipelines, fea
 
 ## 👨‍💻 Developer
 
-**Alexsander Silveira** - DevOps Engineer & Full Stack Developer
+**Alexsander Silveira** - Data Engineer
 
 This project was developed to demonstrate and test various DevOps practices, CI/CD pipelines, and monitoring solutions.
+<img width="1371" alt="image" src="https://github.com/user-attachments/assets/36948034-3326-4f00-9127-7bb0adb905a8" />
 
 ## 📋 Project Structure
 
@@ -24,6 +25,10 @@ This project was developed to demonstrate and test various DevOps practices, CI/
 ├── package.json       # Node.js dependencies and scripts
 └── README.md         # Project documentation
 ```
+<img width="598" alt="image" src="https://github.com/user-attachments/assets/b23f1e34-de28-411a-ae83-75bef94afb27" />
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/2abafbb6-2376-4be3-804d-31e78e1a4584" />
+<img width="357" alt="image" src="https://github.com/user-attachments/assets/8cb2d591-9b51-4937-9be7-dcedc4aed4a5" />
+
 
 ## 🎯 Benefits of This Project
 
@@ -182,10 +187,5 @@ This project is developed by Alexsander Silveira for educational and testing pur
 ## 📞 Contact
 
 **Alexsander Silveira**
-- DevOps Engineer & Full Stack Developer
-- Specialized in CI/CD, automation, and cloud infrastructure
-
----
-
-*This project demonstrates real-world DevOps practices and serves as a practical testing environment for pipeline configurations and monitoring solutions.*
+- Data Engineer/Data Analyst/Data Scientist/Analytics Engineer
 
