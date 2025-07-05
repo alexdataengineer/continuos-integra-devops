@@ -191,4 +191,5 @@ This project is developed by Alexsander Silveira for educational and testing pur
 
 **Alexsander Silveira**
 - Data Engineer/Data Analyst/Data Scientist/Analytics Engineer
-
+LinkedIn: https://www.linkedin.com/in/alexsander-silveira-62b258200/
+Medium: https://medium.com/@alexsander.silveira1
