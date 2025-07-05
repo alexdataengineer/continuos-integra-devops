@@ -182,10 +182,5 @@ This project is developed by Alexsander Silveira for educational and testing pur
 ## 📞 Contact
 
 **Alexsander Silveira**
-- DevOps Engineer & Full Stack Developer
-- Specialized in CI/CD, automation, and cloud infrastructure
-
----
-
-*This project demonstrates real-world DevOps practices and serves as a practical testing environment for pipeline configurations and monitoring solutions.*
+- Data Engineer/Data Analyst/Data Scientist/Analytics Engineer
 
