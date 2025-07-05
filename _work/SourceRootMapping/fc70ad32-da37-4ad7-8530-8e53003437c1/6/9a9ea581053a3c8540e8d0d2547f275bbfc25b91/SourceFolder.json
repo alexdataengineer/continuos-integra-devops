@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1/a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/danielealves2025/",
+  "definitionName": "alexdataengineer.continuos-integra-devops",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/alexdataengineer/continuos-integra-devops",
+      "sourcesDirectory": "1/s/continuos-integra-devops"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "07/05/2025 14:22:34 -03:00",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1/s",
+  "common_testresultsdirectory": "1/TestResults",
+  "collectionId": "fc70ad32-da37-4ad7-8530-8e53003437c1",
+  "definitionId": "6",
+  "hashKey": "9a9ea581053a3c8540e8d0d2547f275bbfc25b91",
+  "repositoryUrl": "https://github.com/alexdataengineer/continuos-integra-devops",
+  "system": "build"
+}

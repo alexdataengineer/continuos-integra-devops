@@ -1,0 +1,544 @@
+[2025-07-05 17:18:17Z INFO AgentProcess] Agent package osx-arm64.
+[2025-07-05 17:18:17Z INFO AgentProcess] Running on OSX (Arm64).
+[2025-07-05 17:18:17Z INFO AgentProcess] RuntimeInformation: Darwin 22.6.0 Darwin Kernel Version 22.6.0: Wed Jul  5 22:22:52 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T8103.
+[2025-07-05 17:18:17Z INFO AgentProcess] Version: 4.258.1
+[2025-07-05 17:18:17Z INFO AgentProcess] Commit: 829205578d8507fb618d2dda11227ecef9687388
+[2025-07-05 17:18:17Z INFO AgentProcess] Culture: en-US
+[2025-07-05 17:18:17Z INFO AgentProcess] UI Culture: en-US
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO AgentProcess] Validating directory permissions for: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.Password
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.Token
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2025-07-05 17:18:17Z INFO HostContext] Value is empty.
+[2025-07-05 17:18:17Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2025-07-05 17:18:17Z INFO AgentProcess] Arguments parsed
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Proxy': '/Users/alexsandersilveira/continuos-integra-devops/.proxy'
+[2025-07-05 17:18:17Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Certificates': '/Users/alexsandersilveira/continuos-integra-devops/.certificates'
+[2025-07-05 17:18:17Z INFO AgentCertificateManager] No certificate setting found.
+[2025-07-05 17:18:17Z INFO Agent] ExecuteCommand
+[2025-07-05 17:18:17Z INFO ConfigurationStore] currentAssemblyLocation: /Users/alexsandersilveira/continuos-integra-devops/bin/Agent.Listener.dll
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] binPath: /Users/alexsandersilveira/continuos-integra-devops/bin
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] RootFolder: /Users/alexsandersilveira/continuos-integra-devops
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Agent': '/Users/alexsandersilveira/continuos-integra-devops/.agent'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] ConfigFilePath: /Users/alexsandersilveira/continuos-integra-devops/.agent
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Credentials': '/Users/alexsandersilveira/continuos-integra-devops/.credentials'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] CredFilePath: /Users/alexsandersilveira/continuos-integra-devops/.credentials
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Service': '/Users/alexsandersilveira/continuos-integra-devops/.service'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/alexsandersilveira/continuos-integra-devops/.service
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Autologon': '/Users/alexsandersilveira/continuos-integra-devops/.autologon'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/alexsandersilveira/continuos-integra-devops/.autologon
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'Options': '/Users/alexsandersilveira/continuos-integra-devops/.options'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/alexsandersilveira/continuos-integra-devops/.options
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO HostContext] Well known config file 'SetupInfo': '/Users/alexsandersilveira/continuos-integra-devops/.setup_info'
+[2025-07-05 17:18:17Z INFO ConfigurationStore] SetupInfoFilePath: /Users/alexsandersilveira/continuos-integra-devops/.setup_info
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.258.1             |_|          (commit 8292055)
+
+[2025-07-05 17:18:17Z INFO ConfigurationManager] ConfigureAsync
+[2025-07-05 17:18:17Z INFO ConfigurationStore] IsConfigured()
+[2025-07-05 17:18:17Z INFO ConfigurationStore] IsConfigured: False
+[2025-07-05 17:18:17Z INFO ConfigurationManager] Is configured: False
+[2025-07-05 17:18:17Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:18:17Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /Users/alexsandersilveira/continuos-integra-devops/license.html
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:18:17Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2025-07-05 17:18:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:18:17Z INFO PromptManager] ReadValue
+[2025-07-05 17:18:17Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-07-05 17:18:17Z INFO Terminal] READ LINE
+[2025-07-05 17:18:17Z INFO Terminal] Read value: '  rm -rf _diag _work .agent'
+[2025-07-05 17:18:17Z INFO PromptManager] Invalid value.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: Enter a valid value for (Y/N) Accept the Team Explorer Everywhere license agreement now?.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-07-05 17:18:17Z INFO Terminal] READ LINE
+[2025-07-05 17:18:17Z INFO Terminal] Read value: './config.sh'
+[2025-07-05 17:18:17Z INFO PromptManager] Invalid value.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: Enter a valid value for (Y/N) Accept the Team Explorer Everywhere license agreement now?.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-07-05 17:18:17Z INFO Terminal] READ LINE
+[2025-07-05 17:18:17Z INFO Terminal] Read value: './config.sh'
+[2025-07-05 17:18:17Z INFO PromptManager] Invalid value.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE LINE: Enter a valid value for (Y/N) Accept the Team Explorer Everywhere license agreement now?.
+[2025-07-05 17:18:17Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-07-05 17:18:17Z INFO Terminal] READ LINE
+[2025-07-05 17:18:20Z INFO Terminal] Read value: 'y'
+[2025-07-05 17:18:20Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2025-07-05 17:18:20Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2025-07-05 17:18:20Z INFO CommandSettings] Flag 'environment': 'False'
+[2025-07-05 17:18:20Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2025-07-05 17:18:20Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2025-07-05 17:18:20Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2025-07-05 17:18:20Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2025-07-05 17:18:20Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2025-07-05 17:18:20Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:18:20Z INFO Terminal] WRITE LINE: >> Connect:
+[2025-07-05 17:18:20Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:18:20Z INFO CommandSettings] Arg 'url': ''
+[2025-07-05 17:18:20Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:18:20Z INFO PromptManager] ReadValue
+[2025-07-05 17:18:20Z INFO Terminal] WRITE: Enter server URL > 
+[2025-07-05 17:18:20Z INFO Terminal] READ LINE
+[2025-07-05 17:18:28Z INFO Terminal] Read value: 'https://dev.azure.com/danielealves2025'
+[2025-07-05 17:18:28Z INFO ConfigurationManager] GetCredentialProvider
+[2025-07-05 17:18:28Z INFO CommandSettings] Arg 'auth': ''
+[2025-07-05 17:18:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:18:28Z INFO PromptManager] ReadValue
+[2025-07-05 17:18:28Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-07-05 17:18:28Z INFO Terminal] READ LINE
+[2025-07-05 17:18:57Z INFO Terminal] Read value: ''
+[2025-07-05 17:18:57Z INFO PromptManager] Falling back to the default: 'PAT'
+[2025-07-05 17:18:57Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2025-07-05 17:18:57Z INFO CredentialManager] GetCredentialProvider
+[2025-07-05 17:18:57Z INFO CredentialManager] Creating type PAT
+[2025-07-05 17:18:57Z INFO CredentialManager] Creating credential type: PAT
+[2025-07-05 17:18:57Z INFO PersonalAccessToken] EnsureCredential
+[2025-07-05 17:18:57Z INFO CommandSettings] Arg 'token': ''
+[2025-07-05 17:18:57Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:18:57Z INFO PromptManager] ReadValue
+[2025-07-05 17:18:57Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-07-05 17:18:57Z INFO Terminal] READ SECRET
+[2025-07-05 17:19:25Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2025-07-05 17:19:25Z INFO Terminal] Read value: '***'
+[2025-07-05 17:19:25Z INFO ConfigurationManager] cred retrieved
+[2025-07-05 17:19:25Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-07-05 17:19:25Z INFO PersonalAccessToken] GetVssCredentials
+[2025-07-05 17:19:25Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-07-05 17:19:25Z INFO PersonalAccessToken] cred created
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO PersonalAccessToken] GetVssCredentials
+[2025-07-05 17:19:26Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-07-05 17:19:26Z INFO PersonalAccessToken] cred created
+[2025-07-05 17:19:26Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2025-07-05 17:19:26Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:19:26Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-07-05 17:19:26Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:19:27Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:19:27Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:19:27Z INFO ConfigurationManager] Test Connection complete.
+[2025-07-05 17:19:27Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:19:27Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:19:27Z INFO HostContext] Well known config file 'RSACredentials': '/Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams'
+[2025-07-05 17:19:27Z INFO RSAFileKeyManager] Found existing RSA key parameters file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:19:27Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:19:27Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2025-07-05 17:19:27Z INFO Terminal] WRITE LINE: 
+[2025-07-05 17:19:27Z INFO CommandSettings] Arg 'pool': ''
+[2025-07-05 17:19:27Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:19:27Z INFO PromptManager] ReadValue
+[2025-07-05 17:19:27Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2025-07-05 17:19:27Z INFO Terminal] READ LINE
+[2025-07-05 17:19:45Z INFO Terminal] Read value: 'validation'
+[2025-07-05 17:19:45Z INFO BuildReleasesAgentConfigProvider] Found pool validation with id 10 and name validation
+[2025-07-05 17:19:45Z INFO CommandSettings] Arg 'agent': ''
+[2025-07-05 17:19:45Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:19:45Z INFO PromptManager] ReadValue
+[2025-07-05 17:19:45Z INFO Terminal] WRITE: Enter agent name (press enter for Alexsanders-Air) > 
+[2025-07-05 17:19:45Z INFO Terminal] READ LINE
+[2025-07-05 17:20:00Z INFO Terminal] Read value: ''
+[2025-07-05 17:20:00Z INFO PromptManager] Falling back to the default: 'Alexsanders-Air'
+[2025-07-05 17:20:00Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-07-05 17:20:00Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-07-05 17:20:00Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-07-05 17:20:00Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-07-05 17:20:00Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-07-05 17:20:00Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding '__CFBundleIdentifier': 'com.todesktop.230313mzl4w4u92'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'COMMAND_MODE': 'unix2003'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'CURSOR_TRACE_ID': '4294673eaf244ea4966b298ea9d43e0f'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'GIT_ASKPASS': '/Volumes/Cursor Installer/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/Users/alexsandersilveira'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_PREFIX': '/opt/homebrew'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_REPOSITORY': '/opt/homebrew'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'alexsandersilveira'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'MallocNanoZone': '0'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/Applications/Docker.app/Contents/Resources/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Docker.app/Contents/Resources/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.13/bin'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/zsh'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.JEjPkwbCpe/Listeners'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'TMPDIR': '/var/folders/32/59t45kh12gg026vy665s3yzc0000gn/T/'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'alexsandersilveira'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': ''
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_MAIN': '/Volumes/Cursor Installer/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_NODE': '/Volumes/Cursor Installer/Cursor.app/Contents/Frameworks/Cursor Helper (Plugin).app/Contents/MacOS/Cursor Helper (Plugin)'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_IPC_HANDLE': '/var/folders/32/59t45kh12gg026vy665s3yzc0000gn/T/vscode-git-75e58d75d0.sock'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_FLAGS': '0x0'
+[2025-07-05 17:20:00Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_SERVICE_NAME': '0'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Users/alexsandersilveira/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'bundler': '/usr/bin/bundle'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'clang': '/usr/bin/clang'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'docker': '/Applications/Docker.app/Contents/Resources/bin/docker'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'dotnet': '/opt/homebrew/bin/dotnet'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'node.js': '/opt/homebrew/bin/node'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'npm': '/opt/homebrew/bin/npm'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'python3': '/Library/Frameworks/Python.framework/Versions/3.13/bin/python3'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'ruby': '/usr/bin/ruby'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'rake': '/usr/bin/rake'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Not found.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/xcode-select'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Arguments: '-p'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] Process started with process id 97620, waiting for process exit.
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] Exited process 97620 with exit code 0
+[2025-07-05 17:20:00Z INFO ProcessInvokerWrapper] Finished process 97620 with exit code 0, and elapsed time 00:00:00.0623027.
+[2025-07-05 17:20:00Z INFO CapabilitiesBuilder] Adding 'xcode': '/Library/Developer/CommandLineTools'
+[2025-07-05 17:20:00Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:20:00Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'Alexsanders-Air'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Darwin'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'ARM64'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '13.5'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.258.1'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'Alexsanders-Air'
+[2025-07-05 17:20:00Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:20:00Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:00Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:00Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-07-05 17:20:01Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2025-07-05 17:20:01Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/danielealves2025/'.
+[2025-07-05 17:20:01Z INFO ConfigurationStore] Saving OAuth credential @ /Users/alexsandersilveira/continuos-integra-devops/.credentials
+[2025-07-05 17:20:01Z INFO ConfigurationStore] Delete exist agent credential file.
+[2025-07-05 17:20:01Z INFO ConfigurationStore] Credentials Saved.
+[2025-07-05 17:20:01Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2025-07-05 17:20:01Z INFO ConfigurationStore] HasCredentials()
+[2025-07-05 17:20:01Z INFO ConfigurationStore] stored True
+[2025-07-05 17:20:01Z INFO CredentialManager] GetCredentialProvider
+[2025-07-05 17:20:01Z INFO CredentialManager] Creating type OAuth
+[2025-07-05 17:20:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-07-05 17:20:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:01Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-07-05 17:20:01Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:20:01Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: b3af272d-02be-402b-8328-68d6c4f3a2b9
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: bec6ad50-b4f0-49ae-a12d-78fe51ec1895
+X-TFS-Session: eb9f8523-d5b2-4f3c-bb09-2aeaafe3b6b5
+X-VSS-E2EID: 7e530282-366c-4d10-876c-a32734cb4435
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/danielealves2025/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/danielealves2025/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fdanielealves2025%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D25370650%26lastChangeId64%3D25370650&redirect=1&hid=fc70ad32-da37-4ad7-8530-8e53003437c1&context=eyJodCI6MiwiaGlkIjoiZmM5YjM4YzMtYjFlMy00Y2YxLWFlNWYtOWRjOWMxZmMwOGMzIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 65FFF4A44DA342EAA559804D46F63059 Ref B: CPQ02EDGE2516 Ref C: 2025-07-05T17:20:01Z
+Date: Sat, 05 Jul 2025 17:20:00 GMT
+
+[2025-07-05 17:20:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:02Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-07-05 17:20:02Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:20:02Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-07-05 17:20:02Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:20:02Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-07-05 17:20:02Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:20:02Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:20:02Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:20:02Z INFO CommandSettings] Arg 'work': ''
+[2025-07-05 17:20:02Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-07-05 17:20:02Z INFO PromptManager] ReadValue
+[2025-07-05 17:20:02Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2025-07-05 17:20:02Z INFO Terminal] READ LINE
+[2025-07-05 17:20:05Z INFO Terminal] Read value: ''
+[2025-07-05 17:20:05Z INFO PromptManager] Falling back to the default: '_work'
+[2025-07-05 17:20:05Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2025-07-05 17:20:05Z INFO CommandSettings] Flag 'restreamlogstofiles': 'False'
+[2025-07-05 17:20:05Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2025-07-05 17:20:05Z INFO ConfigurationStore] Saving agent settings.
+[2025-07-05 17:20:05Z INFO ConfigurationStore] Settings Saved.
+[2025-07-05 17:20:05Z INFO Terminal] WRITE LINE: 2025-07-05 17:20:05Z: Settings Saved.
+[2025-07-05 17:20:05Z INFO MacOSServiceControlManager] Service name 'vsts.agent.danielealves2025.validation.Alexsanders-Air' display name 'Azure Pipelines Agent (danielealves2025.validation.Alexsanders-Air)' will be used for service configuration.
+[2025-07-05 17:20:05Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:20:05Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:05Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:20:05Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:20:05Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:05Z INFO UnixUtil] Which: 'chmod'
+[2025-07-05 17:20:05Z INFO UnixUtil] Location: '{matches.First()}'
+[2025-07-05 17:20:05Z INFO UnixUtil] Running /bin/chmod 755 "/Users/alexsandersilveira/continuos-integra-devops/svc.sh"
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/alexsandersilveira/continuos-integra-devops/svc.sh"'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] Process started with process id 97633, waiting for process exit.
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] Exited process 97633 with exit code 0
+[2025-07-05 17:20:05Z INFO ProcessInvokerWrapper] Finished process 97633 with exit code 0, and elapsed time 00:00:00.0792079.
+[2025-07-05 17:20:05Z INFO ConfigurationStore] HasCredentials()
+[2025-07-05 17:20:05Z INFO ConfigurationStore] stored True
+[2025-07-05 17:20:05Z INFO CredentialManager] GetCredentialProvider
+[2025-07-05 17:20:05Z INFO CredentialManager] Creating type OAuth
+[2025-07-05 17:20:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-07-05 17:20:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:05Z INFO ConfigurationManager] LoadSettings
+[2025-07-05 17:20:05Z INFO ConfigurationStore] IsConfigured()
+[2025-07-05 17:20:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-07-05 17:20:05Z INFO ConfigurationManager] Is configured: True
+[2025-07-05 17:20:05Z INFO ConfigurationStore] Read setting file: 205 chars
+[2025-07-05 17:20:05Z INFO ConfigurationManager] Settings Loaded
+[2025-07-05 17:20:05Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsbr3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: ecb2368a-946a-499e-9897-35a2154ef8fa
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 174a1c21-e938-4763-b793-a8c18005451e
+X-TFS-Session: eb9f8523-d5b2-4f3c-bb09-2aeaafe3b6b5
+X-VSS-E2EID: 261170f2-16a4-40a0-84b2-458621f484a6
+X-VSS-SenderDeploymentId: 0189cb7a-699c-70a7-ea66-12d461ef0b48
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsbr3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/danielealves2025/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/danielealves2025/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodsbr2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fdanielealves2025%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=fc70ad32-da37-4ad7-8530-8e53003437c1&context=eyJodCI6MiwiaGlkIjoiZmM5YjM4YzMtYjFlMy00Y2YxLWFlNWYtOWRjOWMxZmMwOGMzIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:55e5a7bf-8fff-4738-9542-363bfb2b4d4c
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 65D5F85E325047258153D5C4DE483AD9 Ref B: CPQ02EDGE2319 Ref C: 2025-07-05T17:20:05Z
+Date: Sat, 05 Jul 2025 17:20:05 GMT
+
+[2025-07-05 17:20:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/alexsandersilveira/continuos-integra-devops/.credentials_rsaparams
+[2025-07-05 17:20:06Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown

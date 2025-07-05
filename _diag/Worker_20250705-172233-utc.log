@@ -1,0 +1,1894 @@
+[2025-07-05 17:22:33Z INFO Program] Version: 4.258.1
+[2025-07-05 17:22:33Z INFO Program] Commit: 829205578d8507fb618d2dda11227ecef9687388
+[2025-07-05 17:22:33Z INFO Program] Culture: en-US
+[2025-07-05 17:22:33Z INFO Program] UI Culture: en-US
+[2025-07-05 17:22:33Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:33Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:33Z INFO HostContext] Well known config file 'Proxy': '/Users/alexsandersilveira/continuos-integra-devops/.proxy'
+[2025-07-05 17:22:33Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-07-05 17:22:33Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:33Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:33Z INFO HostContext] Well known config file 'Certificates': '/Users/alexsandersilveira/continuos-integra-devops/.certificates'
+[2025-07-05 17:22:33Z INFO AgentCertificateManager] No certificate setting found.
+[2025-07-05 17:22:33Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-07-05 17:22:33Z INFO Worker] Message received.
+[2025-07-05 17:22:33Z INFO Worker] Deactivating vso commands in job message variables.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-07-05 17:22:33Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-07-05 17:22:33Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "e77055a3-6358-5204-c080-7a2e41553284",
+      "name": "__system_1",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "versionSpec": "18.x"
+      },
+      "type": "task",
+      "reference": {
+        "id": "31c75bbb-bcdf-4706-8d7c-4da6a1959bc2",
+        "name": "NodeTool",
+        "version": "0.247.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "193b9156-1ada-520a-8086-be038cb1c717",
+      "name": "NodeTool",
+      "displayName": "Install Node.js"
+    },
+    {
+      "inputs": {
+        "script": "echo \"Installing dependencies...\"\nnpm ci\n"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "3c663f50-2031-5e5a-5a27-a536dda269a8",
+      "name": "CmdLine1",
+      "displayName": "Install Dependencies"
+    },
+    {
+      "inputs": {
+        "script": "echo \"Building application...\"\nnpm run build\n"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "80694584-9a00-5514-2ba2-f6dabf815050",
+      "name": "CmdLine2",
+      "displayName": "Build Application"
+    },
+    {
+      "inputs": {
+        "script": "echo \"Creating deployment package...\"\nzip -r dist.zip . -x \"node_modules/*\" \"*.git*\"\n"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "f07b485a-4928-5c8c-1dd5-52819906354e",
+      "name": "CmdLine3",
+      "displayName": "Create Package"
+    },
+    {
+      "inputs": {
+        "pathToPublish": "dist.zip",
+        "artifactName": "drop"
+      },
+      "type": "task",
+      "reference": {
+        "id": "2ff763a7-ce83-4e1f-bc89-0ae63477cebe",
+        "name": "PublishBuildArtifacts",
+        "version": "1.247.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "db7bb828-60e2-5fa8-048c-06542abd98d2",
+      "name": "PublishBuildArtifacts",
+      "displayName": "Publish Artifacts"
+    }
+  ],
+  "variables": {
+    "webAppName": {
+      "value": "devops-project"
+    },
+    "resourceGroupName": {
+      "value": "devops-rg"
+    },
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "fc70ad32-da37-4ad7-8530-8e53003437c1",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/danielealves2025/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/danielealves2025/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/danielealves2025/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2025-07-05 17:22:29+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "integracion",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "b055dacf-3eae-4eb5-bb8c-37709507c9b0",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "6",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "alexdataengineer.continuos-integra-devops",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "alexdataengineer/continuos-integra-devops",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "alexdataengineer/continuos-integra-devops",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/alexdataengineer/continuos-integra-devops",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseSparseCheckoutInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.hideDockerExecTaskLogIssueErrorOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.ModifyNumberOfRetriesInRobocopy": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.SkipHelmManifestNullParts": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseDigestImageFromFile": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestOpensslVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_OPENSSL_LATEST_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MODIFY_NUMBER_OF_RETRIES_IN_ROBOCOPY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_FIXED_AZ_CONFIG_INIT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_AKS_CREDENTIAL_API": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "e6eeb1d2-5124-644b-8112-ea737c7c8775",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "e6eeb1d2-5124-644b-8112-ea737c7c8775",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "Manual",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "System.CanIssueOidcTokenForWorkloadIdentityFederation": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_fc70ad32-da37-4ad7-8530-8e53003437c1_build_6_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_fc70ad32-da37-4ad7-8530-8e53003437c1_build_6_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "11",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/11",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20250705.2",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "71166954",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "alexdataengineer.continuos-integra-devops",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "bec6a5af-b4f0-49ae-a12d-78fe51ec1895",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "bec6a5af-b4f0-49ae-a12d-78fe51ec1895",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "🔨 Build",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.stageRequestedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.stageRequestedBy": {
+      "value": "Microsoft.VisualStudio.Services.TFS",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Build Job",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "a11efe29-9b58-5a6c-3fa4-3e36996dcbd8",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Build.Build.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Build Job",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "3dc8fd7e-4368-5a92-293e-d53cefc8c4b3",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "500",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/danielealves2025/b055dacf-3eae-4eb5-bb8c-37709507c9b0/_apis/distributedtask/hubs/build/plans/bec6a5af-b4f0-49ae-a12d-78fe51ec1895/jobs/3dc8fd7e-4368-5a92-293e-d53cefc8c4b3/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "fix: usa pool validation (self-hosted) para rodar pipeline local",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "b055dacf-3eae-4eb5-bb8c-37709507c9b0",
+    "planType": "Build",
+    "version": 18,
+    "planId": "bec6a5af-b4f0-49ae-a12d-78fe51ec1895",
+    "planGroup": "Build:b055dacf-3eae-4eb5-bb8c-37709507c9b0:11",
+    "artifactUri": "vstfs:///Build/Build/11",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/danielealves2025/b055dacf-3eae-4eb5-bb8c-37709507c9b0/_build/definition?definitionId=6"
+        },
+        "self": {
+          "href": "https://dev.azure.com/danielealves2025/b055dacf-3eae-4eb5-bb8c-37709507c9b0/_apis/build/Definitions/6"
+        }
+      },
+      "id": 6,
+      "name": "alexdataengineer.continuos-integra-devops"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/danielealves2025/b055dacf-3eae-4eb5-bb8c-37709507c9b0/_build/results?buildId=11"
+        },
+        "self": {
+          "href": "https://dev.azure.com/danielealves2025/b055dacf-3eae-4eb5-bb8c-37709507c9b0/_apis/build/Builds/11"
+        }
+      },
+      "id": 11,
+      "name": "20250705.2"
+    }
+  },
+  "timeline": {
+    "id": "bec6a5af-b4f0-49ae-a12d-78fe51ec1895",
+    "changeId": 6,
+    "location": null
+  },
+  "jobId": "3dc8fd7e-4368-5a92-293e-d53cefc8c4b3",
+  "jobDisplayName": "Build Job",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github"
+        },
+        "id": "8a0ebae0-c981-4bcd-959e-19b31682436f",
+        "name": "integracion",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "Alexsander",
+          "url": "https://spsprodsbr2.vssps.visualstudio.com/Afc9b38c3-b1e3-4cf1-ae5f-9dc9c1fc08c3/_apis/Identities/e6eeb1d2-5124-644b-8112-ea737c7c8775",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/danielealves2025/_apis/GraphProfile/MemberAvatars/msa.ZTZlZWIxZDItNTEyNC03NDRiLTgxMTItZWE3MzdjN2M4Nzc1"
+            }
+          },
+          "id": "e6eeb1d2-5124-644b-8112-ea737c7c8775",
+          "uniqueName": "daniele.alves2025@outlook.com",
+          "imageUrl": "https://dev.azure.com/danielealves2025/_apis/GraphProfile/MemberAvatars/msa.ZTZlZWIxZDItNTEyNC03NDRiLTgxMTItZWE3MzdjN2M4Nzc1",
+          "descriptor": "msa.ZTZlZWIxZDItNTEyNC03NDRiLTgxMTItZWE3MzdjN2M4Nzc1"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "54118035",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "fc70ad32-da37-4ad7-8530-8e53003437c1",
+          "ServerName": "danielealves2025"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/danielealves2025/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "alexdataengineer/continuos-integra-devops",
+          "type": "GitHub",
+          "version": "0a14821db437b058029781ee7f196f1215746388",
+          "name": "alexdataengineer/continuos-integra-devops",
+          "ref": "refs/heads/main",
+          "defaultBranch": "refs/heads/main",
+          "externalId": "***",
+          "project": "b055dacf-3eae-4eb5-bb8c-37709507c9b0",
+          "url": "https://github.com:443/alexdataengineer/continuos-integra-devops",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          }
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "8a0ebae0-c981-4bcd-959e-19b31682436f"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2025-07-05 17:22:33Z INFO JobRunner] Job ID 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3
+[2025-07-05 17:22:33Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/danielealves2025/
+[2025-07-05 17:22:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:22:33Z INFO Worker] Listening for cancel message from the channel.
+[2025-07-05 17:22:33Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-07-05 17:22:34Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:22:34Z INFO JobServerQueue] Start process web console line queue.
+[2025-07-05 17:22:34Z INFO JobServerQueue] Start process file upload queue.
+[2025-07-05 17:22:34Z INFO JobServerQueue] Start process timeline update queue.
+[2025-07-05 17:22:34Z INFO ConfigurationStore] currentAssemblyLocation: /Users/alexsandersilveira/continuos-integra-devops/bin/Agent.Worker.dll
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] binPath: /Users/alexsandersilveira/continuos-integra-devops/bin
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] RootFolder: /Users/alexsandersilveira/continuos-integra-devops
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'Agent': '/Users/alexsandersilveira/continuos-integra-devops/.agent'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] ConfigFilePath: /Users/alexsandersilveira/continuos-integra-devops/.agent
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'Credentials': '/Users/alexsandersilveira/continuos-integra-devops/.credentials'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] CredFilePath: /Users/alexsandersilveira/continuos-integra-devops/.credentials
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'Service': '/Users/alexsandersilveira/continuos-integra-devops/.service'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/alexsandersilveira/continuos-integra-devops/.service
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'Autologon': '/Users/alexsandersilveira/continuos-integra-devops/.autologon'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/alexsandersilveira/continuos-integra-devops/.autologon
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'Options': '/Users/alexsandersilveira/continuos-integra-devops/.options'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/alexsandersilveira/continuos-integra-devops/.options
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'SetupInfo': '/Users/alexsandersilveira/continuos-integra-devops/.setup_info'
+[2025-07-05 17:22:34Z INFO ConfigurationStore] SetupInfoFilePath: /Users/alexsandersilveira/continuos-integra-devops/.setup_info
+[2025-07-05 17:22:34Z INFO ConfigurationStore] Read setting file: 205 chars
+[2025-07-05 17:22:34Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:34Z INFO ExecutionContext] WorkspaceIdentifier '9a9ea581053a3c8540e8d0d2547f275bbfc25b91' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2025-07-05 17:22:34Z INFO HostContext] Removing short secrets from masking dictionary
+[2025-07-05 17:22:34Z INFO JobRunner] Starting the job execution context.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO JobRunner] Validating directory permissions for: '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Tools': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tool'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Temp': '/Users/alexsandersilveira/continuos-integra-devops/_work/_temp'
+[2025-07-05 17:22:34Z INFO JobRunner] Creating task server with https://dev.azure.com/danielealves2025/
+[2025-07-05 17:22:34Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:22:34Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:22:34Z INFO JobRunner] Getting job extension.
+[2025-07-05 17:22:34Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2025-07-05 17:22:34Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-07-05 17:22:34Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:34Z INFO BuildJobExtension] Image version for job id 3dc8fd7e-4368-5a92-293e-d53cefc8c4b3 is not set
+[2025-07-05 17:22:34Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2025-07-05 17:22:34Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Creating build directory.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Checking if artifacts directory exists: '/Users/alexsandersilveira/continuos-integra-devops/_work/1/a'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Checking if test results directory exists: '/Users/alexsandersilveira/continuos-integra-devops/_work/1/TestResults'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Creating test results directory.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Creating binaries directory.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Creating source directory.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildDirectoryManager] Set repository path for repository self to '/Users/alexsandersilveira/continuos-integra-devops/_work/1/s'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO BuildJobExtension] Checking repository name self
+[2025-07-05 17:22:34Z INFO BuildJobExtension] Downloading task definitions.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known config file 'TaskExceptionList': '/Users/alexsandersilveira/continuos-integra-devops/bin/tasks-exception-list.json'
+[2025-07-05 17:22:34Z INFO TaskManager] Skip download checkout task.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:34Z INFO TaskManager] Ensuring task exists: ID '31c75bbb-bcdf-4706-8d7c-4da6a1959bc2', version '0.247.1', name 'NodeTool', directory '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/NodeTool_31c75bbb-bcdf-4706-8d7c-4da6a1959bc2/0.247.1'.
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:34Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:34Z INFO TaskManager] The 'NodeTool' task downloading started.
+[2025-07-05 17:22:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-07-05 17:22:35Z INFO TaskManager] The 'NodeTool' task downloading finished.
+[2025-07-05 17:22:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a53f5fd5-f373-4670-b4ef-86fae39dfb24', success rate: 1/1.
+[2025-07-05 17:22:35Z INFO TaskManager] Finished getting task.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO TaskManager] Ensuring task exists: ID 'd9bafed4-0b18-4f58-968d-86655b4d2ce9', version '2.250.1', name 'CmdLine', directory '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1'.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO TaskManager] The 'CmdLine' task downloading started.
+[2025-07-05 17:22:35Z INFO TaskManager] The 'CmdLine' task downloading finished.
+[2025-07-05 17:22:35Z INFO TaskManager] Finished getting task.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO TaskManager] Ensuring task exists: ID '2ff763a7-ce83-4e1f-bc89-0ae63477cebe', version '1.247.1', name 'PublishBuildArtifacts', directory '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe/1.247.1'.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO TaskManager] The 'PublishBuildArtifacts' task downloading started.
+[2025-07-05 17:22:35Z INFO TaskManager] The 'PublishBuildArtifacts' task downloading finished.
+[2025-07-05 17:22:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a53f5fd5-f373-4670-b4ef-86fae39dfb24', success rate: 1/1.
+[2025-07-05 17:22:35Z INFO TaskManager] Finished getting task.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:35Z INFO BuildJobExtension] Downloading Node 6 runner.
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:35Z INFO HostContext] Well known directory 'Externals': '/Users/alexsandersilveira/continuos-integra-devops/externals'
+[2025-07-05 17:22:35Z INFO NodeJsUtil] Node 6 runner already exist.
+[2025-07-05 17:22:36Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:36Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/NodeTool_31c75bbb-bcdf-4706-8d7c-4da6a1959bc2/0.247.1/task.json'.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:36Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:36Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:36Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:36Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe/1.247.1/task.json'.
+[2025-07-05 17:22:36Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2025-07-05 17:22:36Z INFO BuildJobExtension] Adding post-job step from extension.
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2025-07-05 17:22:36Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:36Z INFO BuildJobExtension] Total accessible running process: 237.
+[2025-07-05 17:22:36Z INFO JobRunner] Total job steps: 7.
+[2025-07-05 17:22:36Z INFO JobRunner] Run all job steps.
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-07-05 17:22:36Z INFO StepsRunner] Caught exception from async command DetectDockerContainer: System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/1/cgroup'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadLines(String path)
+   at Agent.Sdk.PlatformUtil.DetectDockerContainer() in /Users/runner/work/1/s/src/Agent.Sdk/Util/PlatformUtil.cs:line 409
+   at Microsoft.VisualStudio.Services.Agent.Worker.JobRunner.<>c__DisplayClass4_0.<RunAsync>b__3() in /Users/runner/work/1/s/src/Agent.Worker/JobRunner.cs:line 200
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Services.Agent.Worker.AsyncCommandContext.WaitAsync() in /Users/runner/work/1/s/src/Agent.Worker/AsyncCommandContext.cs:line 130
+   at Microsoft.VisualStudio.Services.Agent.Worker.StepsRunner.RunAsync(IExecutionContext jobContext, IList`1 steps) in /Users/runner/work/1/s/src/Agent.Worker/StepsRunner.cs:line 65
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-07-05 17:22:36Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-07-05 17:22:36Z INFO StepsRunner] Caught exception from async command DetectDockerContainer: System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/1/cgroup'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadLines(String path)
+   at Agent.Sdk.PlatformUtil.DetectDockerContainer() in /Users/runner/work/1/s/src/Agent.Sdk/Util/PlatformUtil.cs:line 409
+   at Microsoft.VisualStudio.Services.Agent.Worker.JobRunner.<>c__DisplayClass4_0.<RunAsync>b__3() in /Users/runner/work/1/s/src/Agent.Worker/JobRunner.cs:line 200
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.VisualStudio.Services.Agent.Worker.AsyncCommandContext.WaitAsync() in /Users/runner/work/1/s/src/Agent.Worker/AsyncCommandContext.cs:line 130
+   at Microsoft.VisualStudio.Services.Agent.Worker.StepsRunner.RunAsync(IExecutionContext jobContext, IList`1 steps) in /Users/runner/work/1/s/src/Agent.Worker/StepsRunner.cs:line 65
+[2025-07-05 17:22:36Z INFO StepsRunner] Processing step: DisplayName='Checkout alexdataengineer/continuos-integra-devops@main to s', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:36Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:36Z INFO ExpressionManager] Result: True
+[2025-07-05 17:22:36Z INFO StepsRunner] Starting the step.
+[2025-07-05 17:22:36Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:36Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-07-05 17:22:36Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-07-05 17:22:36Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area task
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area artifact
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area build
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area results
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area release
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2025-07-05 17:22:36Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   File name: 'vm_stat'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Arguments: ''
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Process started with process id 97794, waiting for process exit.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Exited process 97794 with exit code 0
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Finished process 97794 with exit code 0, and elapsed time 00:00:00.0264436.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Arguments: '-c "top -l 2 -o cpu | grep ^CPU"'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Process started with process id 97795, waiting for process exit.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'.
+[2025-07-05 17:22:36Z INFO AgentPluginManager] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main).
+[2025-07-05 17:22:36Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   File name: '/Users/alexsandersilveira/continuos-integra-devops/bin/Agent.PluginHost'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Process started with process id 97798, waiting for process exit.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-07-05 17:22:36Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a53f5fd5-f373-4670-b4ef-86fae39dfb24', success rate: 1/1.
+[2025-07-05 17:22:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-07-05 17:22:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-07-05 17:22:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-07-05 17:22:36Z INFO HostContext] Setting up value for origin: TaskSetSecretCommand
+[2025-07-05 17:22:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-07-05 17:22:37Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-07-05 17:22:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:37Z INFO ProcessInvokerWrapper] Exited process 97795 with exit code 0
+[2025-07-05 17:22:37Z INFO ProcessInvokerWrapper] Finished process 97795 with exit code 0, and elapsed time 00:00:01.7594772.
+[2025-07-05 17:22:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-07-05 17:22:38Z INFO HostContext] Setting up value for origin: Variables_Set_repoUrlWithCred
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] Exited process 97798 with exit code 0
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] Finished process 97798 with exit code 0, and elapsed time 00:00:02.3784528.
+[2025-07-05 17:22:38Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-07-05 17:22:38Z INFO StepsRunner] Step result: 
+[2025-07-05 17:22:38Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-07-05 17:22:38Z INFO StepsRunner] Current state: job state = ''
+[2025-07-05 17:22:38Z INFO StepsRunner] Processing step: DisplayName='Install Node.js', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:38Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:38Z INFO ExpressionManager] Result: True
+[2025-07-05 17:22:38Z INFO StepsRunner] Starting the step.
+[2025-07-05 17:22:38Z INFO TaskRunner] Allow publishing telemetry for NodeTool@0.247.1 task: True
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:38Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/NodeTool_31c75bbb-bcdf-4706-8d7c-4da6a1959bc2/0.247.1/task.json'.
+[2025-07-05 17:22:38Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-07-05 17:22:38Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-07-05 17:22:38Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-07-05 17:22:38Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-07-05 17:22:38Z INFO TaskRunner] Node SDK version: 4.16.0. Correlation ID is required: True.
+[2025-07-05 17:22:38Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-07-05 17:22:38Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Externals': '/Users/alexsandersilveira/continuos-integra-devops/externals'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:38Z INFO HostContext] Well known directory 'Externals': '/Users/alexsandersilveira/continuos-integra-devops/externals'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   File name: '/Users/alexsandersilveira/continuos-integra-devops/externals/node20_1/bin/node'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Arguments: '"/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/NodeTool_31c75bbb-bcdf-4706-8d7c-4da6a1959bc2/0.247.1/nodetool.js"'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops/_work/1/s'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:38Z INFO ProcessInvokerWrapper] Process started with process id 97843, waiting for process exit.
+[2025-07-05 17:22:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e77055a3-6358-5204-c080-7a2e41553284', success rate: 1/1.
+[2025-07-05 17:22:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:39Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-07-05 17:22:39Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   File name: 'vm_stat'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Arguments: ''
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] Process started with process id 97869, waiting for process exit.
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] Exited process 97869 with exit code 0
+[2025-07-05 17:22:41Z INFO ProcessInvokerWrapper] Finished process 97869 with exit code 0, and elapsed time 00:00:00.0580326.
+[2025-07-05 17:22:42Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Arguments: '-c "top -l 2 -o cpu | grep ^CPU"'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:42Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:43Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:43Z INFO ProcessInvokerWrapper] Process started with process id 97887, waiting for process exit.
+[2025-07-05 17:22:43Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Exited process 97843 with exit code 0
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Finished process 97843 with exit code 0, and elapsed time 00:00:05.5578225.
+[2025-07-05 17:22:44Z INFO StepsRunner] Step result: 
+[2025-07-05 17:22:44Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-07-05 17:22:44Z INFO StepsRunner] Current state: job state = ''
+[2025-07-05 17:22:44Z INFO StepsRunner] Processing step: DisplayName='Install Dependencies', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:44Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:44Z INFO ExpressionManager] Result: True
+[2025-07-05 17:22:44Z INFO StepsRunner] Starting the step.
+[2025-07-05 17:22:44Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'TaskZips': '/Users/alexsandersilveira/continuos-integra-devops/_work/_taskzips'
+[2025-07-05 17:22:44Z INFO TaskManager] Loading task definition '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/task.json'.
+[2025-07-05 17:22:44Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-07-05 17:22:44Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData
+[2025-07-05 17:22:44Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-07-05 17:22:44Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-07-05 17:22:44Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-07-05 17:22:44Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: /Users/alexsandersilveira/continuos-integra-devops/_work/1/s
+[2025-07-05 17:22:44Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: /Users/alexsandersilveira/continuos-integra-devops/_work/1/s
+[2025-07-05 17:22:44Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: /Users/alexsandersilveira/continuos-integra-devops/_work/1/s
+[2025-07-05 17:22:44Z INFO TaskRunner] Build JobExtension resolved a rooted path:: /Users/alexsandersilveira/continuos-integra-devops/_work/1/s
+[2025-07-05 17:22:44Z INFO NodeHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-07-05 17:22:44Z INFO TaskRunner] Current handler is Node. Trying to determing the SDK version.
+[2025-07-05 17:22:44Z INFO TaskRunner] Node SDK version: 4.17.3. Correlation ID is required: True.
+[2025-07-05 17:22:44Z INFO NodeHandler] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix
+[2025-07-05 17:22:44Z INFO NodeHandler] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Externals': '/Users/alexsandersilveira/continuos-integra-devops/externals'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:44Z INFO HostContext] Well known directory 'Externals': '/Users/alexsandersilveira/continuos-integra-devops/externals'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   File name: '/Users/alexsandersilveira/continuos-integra-devops/externals/node20_1/bin/node'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Arguments: '"/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks/CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9/2.250.1/cmdline.js"'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops/_work/1/s'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Process started with process id 97900, waiting for process exit.
+[2025-07-05 17:22:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record '193b9156-1ada-520a-8086-be038cb1c717', success rate: 1/1.
+[2025-07-05 17:22:44Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3c663f50-2031-5e5a-5a27-a536dda269a8', success rate: 1/1.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Exited process 97887 with exit code 0
+[2025-07-05 17:22:44Z INFO ProcessInvokerWrapper] Finished process 97887 with exit code 0, and elapsed time 00:00:01.8039537.
+[2025-07-05 17:22:45Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-07-05 17:22:45Z INFO ExecutionContext] Force finish current task in 5 sec.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] Exited process 97900 with exit code 0
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] Finished process 97900 with exit code 0, and elapsed time 00:00:01.6667149.
+[2025-07-05 17:22:45Z INFO StepsRunner] Step result: Failed
+[2025-07-05 17:22:45Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-07-05 17:22:45Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-07-05 17:22:45Z INFO StepsRunner] Processing step: DisplayName='Build Application', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:45Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:45Z INFO ExpressionManager] Result: False
+[2025-07-05 17:22:45Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-07-05 17:22:45Z INFO StepsRunner] Processing step: DisplayName='Create Package', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:45Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:45Z INFO ExpressionManager] Result: False
+[2025-07-05 17:22:45Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-07-05 17:22:45Z INFO StepsRunner] Processing step: DisplayName='Publish Artifacts', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:45Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-07-05 17:22:45Z INFO ExpressionManager] Result: False
+[2025-07-05 17:22:45Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-07-05 17:22:45Z INFO StepsRunner] Processing step: DisplayName='Checkout alexdataengineer/continuos-integra-devops@main to s', ContinueOnError=False, Enabled=True
+[2025-07-05 17:22:45Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2025-07-05 17:22:45Z INFO ExpressionManager] Result: True
+[2025-07-05 17:22:45Z INFO StepsRunner] Starting the step.
+[2025-07-05 17:22:45Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Tasks': '/Users/alexsandersilveira/continuos-integra-devops/_work/_tasks'
+[2025-07-05 17:22:45Z INFO TaskRunner] Get handler data for target platform OSX
+[2025-07-05 17:22:45Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-07-05 17:22:45Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-07-05 17:22:45Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:45Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   File name: '/Users/alexsandersilveira/continuos-integra-devops/bin/Agent.PluginHost'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] Process started with process id 97915, waiting for process exit.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-07-05 17:22:45Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97915 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97915 with exit code 0, and elapsed time 00:00:00.2415770.
+[2025-07-05 17:22:46Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-07-05 17:22:46Z INFO StepsRunner] Step result: 
+[2025-07-05 17:22:46Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-07-05 17:22:46Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-07-05 17:22:46Z INFO JobRunner] Finalize job.
+[2025-07-05 17:22:46Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Work': '/Users/alexsandersilveira/continuos-integra-devops/_work'
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Total accessible running process: 234.
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97914 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97914 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97914 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97916, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97916 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97916 with exit code 0, and elapsed time 00:00:00.0370463.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97914
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97912 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97912 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97912 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97917, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97917 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97917 with exit code 0, and elapsed time 00:00:00.0168082.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97912
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97909 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97909 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97909 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3c663f50-2031-5e5a-5a27-a536dda269a8', success rate: 1/1.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97918, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97918 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97918 with exit code 0, and elapsed time 00:00:00.0157548.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97909
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97908 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97908 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97908 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97919, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97919 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97919 with exit code 0, and elapsed time 00:00:00.0171460.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97908
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97906 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97906 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97906 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97920, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97920 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97920 with exit code 0, and elapsed time 00:00:00.0154812.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97906
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97905 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97905 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97905 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97921, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97921 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97921 with exit code 0, and elapsed time 00:00:00.0170530.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97905
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97904 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97904 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97904 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record '80694584-9a00-5514-2ba2-f6dabf815050', success rate: 1/1.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97922, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97922 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97922 with exit code 0, and elapsed time 00:00:00.0157800.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97904
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97897 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97897 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97897 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97923, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97923 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97923 with exit code 0, and elapsed time 00:00:00.0282201.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97897
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97896 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97896 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97896 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97924, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97924 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97924 with exit code 0, and elapsed time 00:00:00.0171775.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97896
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97893 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97893 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97893 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f07b485a-4928-5c8c-1dd5-52819906354e', success rate: 1/1.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97925, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97925 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97925 with exit code 0, and elapsed time 00:00:00.0160902.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97893
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97878 (ScreenTimeWidge)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97878 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97878 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97926, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97926 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97926 with exit code 0, and elapsed time 00:00:00.0169940.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97878
+[2025-07-05 17:22:46Z INFO BuildJobExtension] Inspecting process environment variables. PID: 97862 (mdworker_shared)
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Read env from output of `ps e -p 97862 -o command`
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Bin': '/Users/alexsandersilveira/continuos-integra-devops/bin'
+[2025-07-05 17:22:46Z INFO HostContext] Well known directory 'Root': '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 97862 -o command'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Working directory: '/Users/alexsandersilveira/continuos-integra-devops'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Process started with process id 97927, waiting for process exit.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Exited process 97927 with exit code 0
+[2025-07-05 17:22:46Z INFO ProcessInvokerWrapper] Finished process 97927 with exit code 0, and elapsed time 00:00:00.0153407.
+[2025-07-05 17:22:46Z INFO ProcessExtensions] Successfully dump environment variables for 97862
+[2025-07-05 17:22:46Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-07-05 17:22:46Z INFO JobRunner] Completing the job execution context.
+[2025-07-05 17:22:46Z INFO JobRunner] Shutting down the job server queue.
+[2025-07-05 17:22:46Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-07-05 17:22:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'db7bb828-60e2-5fa8-048c-06542abd98d2', success rate: 1/1.
+[2025-07-05 17:22:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record '20585025-904a-419a-97d3-3c94511a9b2f', success rate: 1/1.
+[2025-07-05 17:22:49Z INFO JobServerQueue] Try to upload 5 log files or attachments, success rate: 5/5.
+[2025-07-05 17:22:50Z INFO JobServerQueue] All queue process task stopped.
+[2025-07-05 17:22:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '20585025-904a-419a-97d3-3c94511a9b2f', success rate: 1/1.
+[2025-07-05 17:22:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '89f7d0c4-08f8-4bef-aea2-e4892ce35071', success rate: 1/1.
+[2025-07-05 17:22:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3dc8fd7e-4368-5a92-293e-d53cefc8c4b3', success rate: 1/1.
+[2025-07-05 17:22:50Z INFO JobServerQueue] Web console line queue drained.
+[2025-07-05 17:22:50Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2025-07-05 17:22:51Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2025-07-05 17:22:51Z INFO JobServerQueue] File upload queue drained.
+[2025-07-05 17:22:51Z INFO JobServerQueue] Timeline update queue drained.
+[2025-07-05 17:22:51Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-07-05 17:22:51Z INFO TempDirectoryManager] Cleaning agent temp folder: /Users/alexsandersilveira/continuos-integra-devops/_work/_temp
+[2025-07-05 17:22:51Z INFO JobRunner] Raising job completed event.
+[2025-07-05 17:22:51Z INFO Worker] Job completed.
