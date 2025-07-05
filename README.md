@@ -14,6 +14,9 @@ This project was developed to demonstrate and test various DevOps practices, CI/
 ![image](https://github.com/user-attachments/assets/be7bcea4-2fd8-467d-9e59-703b5c9bb57f)
 
 
+<img width="1357" alt="image" src="https://github.com/user-attachments/assets/5edbbaf6-7acb-4e49-a635-e74ecd970600" />
+
+
 ## 📋 Project Structure
 
 ```
