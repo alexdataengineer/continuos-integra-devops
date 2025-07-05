@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - DevOps Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+        }
+
+        .back-btn {
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 20px;
+        }
+
+        .sidebar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .sidebar h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .nav-menu {
+            list-style: none;
+        }
+
+        .nav-menu li {
+            margin-bottom: 10px;
+        }
+
+        .nav-menu a {
+            display: block;
+            padding: 10px 15px;
+            color: #2c3e50;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-menu a:hover,
+        .nav-menu a.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .main-content {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .endpoint {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+        }
+
+        .endpoint h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .method {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .method.get {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .method.post {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .method.put {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .method.delete {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .url {
+            font-family: 'Courier New', monospace;
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            display: block;
+        }
+
+        .description {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .params {
+            margin: 20px 0;
+        }
+
+        .params h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .param-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .param-table th,
+        .param-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .param-table th {
+            background: #f8f9fa;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .response {
+            margin: 20px 0;
+        }
+
+        .response h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .status-code {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .status-200 {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-400 {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-401 {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-500 {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .try-it-btn {
+            padding: 8px 16px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .try-it-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                position: static;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔌 API Documentation</h1>
+            <a href="index.html" class="back-btn">← Voltar</a>
+        </div>
+
+        <div class="content">
+            <div class="sidebar">
+                <h2>📚 Endpoints</h2>
+                <ul class="nav-menu">
+                    <li><a href="#health" class="active">Health Check</a></li>
+                    <li><a href="#users">Users</a></li>
+                    <li><a href="#metrics">Metrics</a></li>
+                    <li><a href="#config">Configuration</a></li>
+                    <li><a href="#deploy">Deploy</a></li>
+                    <li><a href="#monitoring">Monitoring</a></li>
+                </ul>
+            </div>
+
+            <div class="main-content">
+                <div id="health" class="endpoint">
+                    <h3>Health Check</h3>
+                    <span class="method get">GET</span>
+                    <code class="url">/api/health</code>
+                    <p class="description">Verifica o status de saúde da aplicação e seus serviços dependentes.</p>
+                    
+                    <div class="params">
+                        <h4>Parâmetros</h4>
+                        <p>Nenhum parâmetro necessário.</p>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "status": "healthy",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "services": {
+    "database": "connected",
+    "redis": "connected",
+    "external_api": "connected"
+  },
+  "uptime": "15d 8h 32m"
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('GET', '/api/health')">Testar</button>
+                </div>
+
+                <div id="users" class="endpoint">
+                    <h3>Users</h3>
+                    <span class="method get">GET</span>
+                    <code class="url">/api/users</code>
+                    <p class="description">Lista todos os usuários do sistema.</p>
+                    
+                    <div class="params">
+                        <h4>Parâmetros de Query</h4>
+                        <table class="param-table">
+                            <thead>
+                                <tr>
+                                    <th>Parâmetro</th>
+                                    <th>Tipo</th>
+                                    <th>Obrigatório</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>page</td>
+                                    <td>integer</td>
+                                    <td>Não</td>
+                                    <td>Número da página (padrão: 1)</td>
+                                </tr>
+                                <tr>
+                                    <td>limit</td>
+                                    <td>integer</td>
+                                    <td>Não</td>
+                                    <td>Itens por página (padrão: 10)</td>
+                                </tr>
+                                <tr>
+                                    <td>search</td>
+                                    <td>string</td>
+                                    <td>Não</td>
+                                    <td>Termo de busca</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "email": "joao@example.com",
+      "role": "admin",
+      "created_at": "2024-01-10T08:00:00Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 25,
+    "pages": 3
+  }
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('GET', '/api/users')">Testar</button>
+                </div>
+
+                <div id="metrics" class="endpoint">
+                    <h3>Metrics</h3>
+                    <span class="method get">GET</span>
+                    <code class="url">/api/metrics</code>
+                    <p class="description">Retorna métricas de performance e monitoramento do sistema.</p>
+                    
+                    <div class="params">
+                        <h4>Parâmetros de Query</h4>
+                        <table class="param-table">
+                            <thead>
+                                <tr>
+                                    <th>Parâmetro</th>
+                                    <th>Tipo</th>
+                                    <th>Obrigatório</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>period</td>
+                                    <td>string</td>
+                                    <td>Não</td>
+                                    <td>Período (1h, 24h, 7d, 30d)</td>
+                                </tr>
+                                <tr>
+                                    <td>metric</td>
+                                    <td>string</td>
+                                    <td>Não</td>
+                                    <td>Tipo de métrica (cpu, memory, disk)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "metrics": {
+    "cpu_usage": 45.2,
+    "memory_usage": 67.8,
+    "disk_usage": 23.1,
+    "response_time": 125,
+    "requests_per_second": 150
+  },
+  "timestamp": "2024-01-15T10:30:00Z",
+  "period": "24h"
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('GET', '/api/metrics')">Testar</button>
+                </div>
+
+                <div id="config" class="endpoint">
+                    <h3>Configuration</h3>
+                    <span class="method put">PUT</span>
+                    <code class="url">/api/config</code>
+                    <p class="description">Atualiza configurações do sistema.</p>
+                    
+                    <div class="params">
+                        <h4>Body</h4>
+                        <div class="code-block">
+{
+  "feature_flags": {
+    "new_ui": true,
+    "beta_features": false
+  },
+  "settings": {
+    "timeout": 30,
+    "retries": 3
+  }
+}
+                        </div>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "message": "Configuration updated successfully",
+  "timestamp": "2024-01-15T10:30:00Z"
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('PUT', '/api/config')">Testar</button>
+                </div>
+
+                <div id="deploy" class="endpoint">
+                    <h3>Deploy</h3>
+                    <span class="method post">POST</span>
+                    <code class="url">/api/deploy</code>
+                    <p class="description">Inicia um novo deploy da aplicação.</p>
+                    
+                    <div class="params">
+                        <h4>Body</h4>
+                        <div class="code-block">
+{
+  "version": "v2.1.4",
+  "environment": "production",
+  "branch": "main",
+  "auto_rollback": true
+}
+                        </div>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "deploy_id": "deploy_12345",
+  "status": "started",
+  "version": "v2.1.4",
+  "environment": "production",
+  "estimated_duration": "5m",
+  "timestamp": "2024-01-15T10:30:00Z"
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('POST', '/api/deploy')">Testar</button>
+                </div>
+
+                <div id="monitoring" class="endpoint">
+                    <h3>Monitoring</h3>
+                    <span class="method get">GET</span>
+                    <code class="url">/api/monitoring/alerts</code>
+                    <p class="description">Retorna alertas ativos do sistema de monitoramento.</p>
+                    
+                    <div class="params">
+                        <h4>Parâmetros de Query</h4>
+                        <table class="param-table">
+                            <thead>
+                                <tr>
+                                    <th>Parâmetro</th>
+                                    <th>Tipo</th>
+                                    <th>Obrigatório</th>
+                                    <th>Descrição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>severity</td>
+                                    <td>string</td>
+                                    <td>Não</td>
+                                    <td>Nível de severidade (low, medium, high, critical)</td>
+                                </tr>
+                                <tr>
+                                    <td>status</td>
+                                    <td>string</td>
+                                    <td>Não</td>
+                                    <td>Status do alerta (active, resolved)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="response">
+                        <h4>Resposta</h4>
+                        <div>
+                            <span class="status-code status-200">200 OK</span>
+                            <span>Sucesso</span>
+                        </div>
+                        <div class="code-block">
+{
+  "alerts": [
+    {
+      "id": "alert_001",
+      "title": "High CPU Usage",
+      "description": "CPU usage exceeded 80%",
+      "severity": "high",
+      "status": "active",
+      "timestamp": "2024-01-15T10:25:00Z"
+    }
+  ],
+  "total": 1,
+  "timestamp": "2024-01-15T10:30:00Z"
+}
+                        </div>
+                    </div>
+                    <button class="try-it-btn" onclick="testEndpoint('GET', '/api/monitoring/alerts')">Testar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Navegação suave
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class de todos os links
+                document.querySelectorAll('.nav-menu a').forEach(l => l.classList.remove('active'));
+                
+                // Adiciona active class ao link clicado
+                this.classList.add('active');
+                
+                // Scroll para a seção
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Função para testar endpoints
+        function testEndpoint(method, url) {
+            console.log(`Testando endpoint: ${method} ${url}`);
+            
+            // Simular teste de API
+            setTimeout(() => {
+                const success = Math.random() > 0.2; // 80% de sucesso
+                if (success) {
+                    alert(`✅ ${method} ${url} - Sucesso!`);
+                } else {
+                    alert(`❌ ${method} ${url} - Falha na conexão`);
+                }
+            }, 1000);
+        }
+
+        // Detectar seção ativa no scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.endpoint');
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
