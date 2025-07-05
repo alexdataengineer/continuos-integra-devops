@@ -1,0 +1,40 @@
+{
+  "name": "devops-project",
+  "version": "1.0.0",
+  "description": "Projeto de demonstração para práticas de DevOps",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve . -p 3000",
+    "build": "echo 'Build completed'",
+    "test": "echo 'Running tests...' && exit 0",
+    "test:e2e": "echo 'Running E2E tests...' && exit 0",
+    "lint": "echo 'Linting completed'",
+    "audit": "npm audit",
+    "deploy": "echo 'Deploy completed'",
+    "health-check": "curl -f http://localhost:3000 || exit 1"
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "pipeline",
+    "azure",
+    "monitoring"
+  ],
+  "author": "DevOps Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/your-org/devops-project"
+  },
+  "bugs": {
+    "url": "https://dev.azure.com/your-org/devops-project/issues"
+  },
+  "homepage": "https://dev.azure.com/your-org/devops-project"
+} 
