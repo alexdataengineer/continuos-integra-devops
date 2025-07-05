@@ -1,5 +1,5 @@
-# Azure DevOps Pipeline - Versão Minimalista
-# Funciona apenas com tasks padrão do Azure DevOps
+# Azure DevOps Pipeline - Versão Otimizada
+# Funciona sem paralelismo hospedado
 
 trigger:
 - main
