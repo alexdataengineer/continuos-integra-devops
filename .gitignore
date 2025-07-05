@@ -1,0 +1,9 @@
+node_modules/
+_work/
+_diag/
+bin/
+externals/
+vsts-agent-osx-arm64-4.258.1.tar.gz
+*.log
+*.tgz
+.DS_Store
