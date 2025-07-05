@@ -6,6 +6,9 @@ A comprehensive DevOps project designed to test and demonstrate CI/CD pipelines,
 
 This project serves as a practical testing environment for DevOps pipelines, featuring multiple HTML pages that simulate a real web application with different functionalities like dashboards, APIs, monitoring, and testing interfaces.
 
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/0480c695-b558-4f5b-9157-3a8a1b476be6" />
+
+
 ## 👨‍💻 Developer
 
 **Alexsander Silveira** - Data Engineer
